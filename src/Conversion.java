@@ -9,7 +9,7 @@ public class Conversion {
 
         TasaDeCambio tasa = consulta.buscarDivisa(divisaInicial, divisaFinal);
         try {
-            System.out.println("Ingresa la cantidad que deseas convertir de " +
+            System.out.println("Ingrese la cantidad que desea convertir de " +
                     divisaInicial);
             cantidad = Double.parseDouble(lectura.nextLine());
             cantidadConversion = cantidad * tasa.conversion_rate();

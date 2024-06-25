@@ -18,7 +18,7 @@ public class Principal {
                     "https://ayuda.xubio.com/wp-content/uploads/2020/12/Catalogo-de-Monedas.pdf\n");
 /*            System.out.println("NOTA: El programa generará un historial de las conversiones \n" +
                     "y las registrará en un archivo .txt para su posterior consulta.");*/
-            System.out.println("Por favor, selecciona una de las siguientes opciones");
+            System.out.println("Por favor, seleccione una de las siguientes opciones");
             System.out.println("1. USD a MXN");
             System.out.println("2. MXN a USD");
             System.out.println("3. EUR a MXN");
@@ -60,10 +60,10 @@ public class Principal {
                         String divisaIn;
                         String divisaOut;
 
-                        System.out.println("Ingresa el código de la moneda para convertir (moneda entrada)");
+                        System.out.println("Ingrese el código de la moneda para convertir (moneda entrada)");
                         try {
                             divisaIn = String.valueOf(lectura.nextLine());
-                            System.out.println("Ingresa el código de la moneda a convertir (moneda salida)");
+                            System.out.println("Ingrese el código de la moneda a convertir (moneda salida)");
                             divisaOut = String.valueOf(lectura.nextLine());
                             TasaDeCambio tasa = consulta.buscarDivisa(divisaIn, divisaOut);
 
@@ -72,7 +72,7 @@ public class Principal {
                                 System.out.println("Regresando al menu principal...");
                                 System.out.println("------------------------------------------------------------------------\n");
                             } else {
-                                System.out.println("Ingresa la cantidad que desea convertir");
+                                System.out.println("Ingrese la cantidad que desea convertir");
                                 cantidad = Double.parseDouble(lectura.nextLine());
                                 cantidadConversion = cantidad * tasa.conversion_rate();
                                 System.out.println(cantidad + " "+ divisaIn + " equivale a " +
