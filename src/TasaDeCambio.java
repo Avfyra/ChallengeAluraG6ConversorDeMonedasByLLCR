@@ -6,7 +6,7 @@ public record TasaDeCambio( double time_last_update_unix,
                            String target_code,
                            double conversion_rate) {
 
-    public double obtenerTasa () {
+    /*public double obtenerTasa () {
         return conversion_rate;
-    }
+    }*/
 }

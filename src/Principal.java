@@ -16,8 +16,7 @@ public class Principal {
             System.out.println("¡IMPORTANTE!: Este conversor utiliza el código de moneda ISO 4217 \n" +
                     "Para consultar los códifos puedes visitar el siguiente enlace: \n" +
                     "https://ayuda.xubio.com/wp-content/uploads/2020/12/Catalogo-de-Monedas.pdf\n");
-/*            System.out.println("NOTA: El programa generará un historial de las conversiones \n" +
-                    "y las registrará en un archivo .txt para su posterior consulta.");*/
+
             System.out.println("Por favor, seleccione una de las siguientes opciones");
             System.out.println("1. USD a MXN");
             System.out.println("2. MXN a USD");
