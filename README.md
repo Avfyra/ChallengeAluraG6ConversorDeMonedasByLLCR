@@ -22,19 +22,19 @@ Para el correcto funcionamiento de la aplicación se recomienda el uso de:
 + IDE de su preferencia. 
 
 ## Instalación y uso
-+ Para acceder a la aplicacion puedes descargar directamente el repositorio desde GitHub, o bien clonar el proyecto por medio del comando **git clone**. Recuerda verificar que cumples con los requisitos para correr la aplicación.
++ Para acceder a la aplicación puedes descargar directamente el repositorio desde GitHub, o bien clonar el proyecto por medio del comando **git clone**. Recuerda verificar que cumples con los requisitos para correr la aplicación.
 
 ## Contribución
 Las contribuciones siempre son bienvenidas. Puede seguir estos pasos para colaborar:
 + Realice un fork del repositorio
 + Clone el repositorio
 + Actualice la rama master
-+ Creae una rama
-+ Hagar los cambios
-+ Hagar un Pull Request
++ Crea una rama
++ Haga los cambios
++ Haga un Pull Request
 
 ## Consideraciones
-Esta es la primera versión de la app, por lo que puede esar sujeta a futuros cambios. 
+Esta es la primera versión de la app, por lo que puede estar sujeta a futuros cambios. 
 
 
 
